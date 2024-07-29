@@ -3,9 +3,9 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import pandas as pd
-from .src.prediction import MakePredictions
-from .src.model import WeatherDefaultPredictorModel
-from .src.preprocessing import WeatherDefaultPredictor
+from src.prediction import MakePredictions
+from src.model import WeatherDefaultPredictorModel
+from src.preprocessing import WeatherDefaultPredictor
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
