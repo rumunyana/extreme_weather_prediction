@@ -113,6 +113,7 @@ def make_prediction(input: PredictionInput):
 origins = [
     "http://localhost",
     "http://localhost:8080",
+    "https://extreme-weather-prediction.onrender.com",
 ]
 
 
