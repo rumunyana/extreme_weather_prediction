@@ -115,6 +115,7 @@ origins = [
     "http://localhost:8080",
     "https://extreme-weather-prediction.onrender.com",
     "http://localhost:3000",
+    "https://weather-app-nu-plum.vercel.app",
 ]
 
 
