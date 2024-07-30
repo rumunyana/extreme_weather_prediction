@@ -114,6 +114,7 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "https://extreme-weather-prediction.onrender.com",
+    "http://localhost:3000",
 ]
 
 
