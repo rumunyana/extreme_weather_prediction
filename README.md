@@ -1,6 +1,3 @@
-Extreme Weather Prediction project:
-
-
 # Extreme Weather Prediction MLOps Project
 
 ## Project Description
