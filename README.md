@@ -83,12 +83,6 @@ Extreme_Weather_Prediction/
    ```
    uvicorn src.main:app --reload
    ```
-
-5. Launch the Streamlit UI:
-   ```
-   streamlit run src/streamlit_app.py
-   ```
-
 ## Model Information
 
 The core of this project is a Multi-layer Perceptron (MLP) model trained on historical weather data. The model takes various weather parameters as input and outputs the probability of an extreme weather event occurring.
@@ -100,17 +94,8 @@ Key metrics:
 
 ## Cloud Deployment
 
-This project is deployed on [Cloud Platform Name]. The deployment process includes:
-- Continuous Integration/Continuous Deployment (CI/CD) pipeline
-- Automatic model retraining triggered by [specify trigger]
-- Scalable infrastructure to handle varying loads
+This project is deployed on RENDER. 
 
-## Monitoring and Evaluation
-
-We use [specify tools, e.g., Prometheus and Grafana] for monitoring model performance and system health in production. Key metrics tracked include:
-- Prediction accuracy
-- System response time
-- Resource utilization
 
 ## Contributing
 
