@@ -30,8 +30,8 @@ Extreme_Weather_Prediction/
 │   ├── train/
 │   └── test/
 └── models/
-    ├── extreme_weather_mlp.pkl
-    └── extreme_weather_mlp.tf
+    ├── model 1.pkl
+    └── model 2.pkl
 ```
 
 ## Setup Instructions
