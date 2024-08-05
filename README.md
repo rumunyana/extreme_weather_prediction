@@ -78,16 +78,19 @@ Extreme_Weather_Prediction/
 
 4. Start the FastAPI server:
    ```
-   uvicorn src.main:app --reload
+   uvicorn src. main: app --reload
    ```
 ## Model Information
 
-The core of this project is a Multi-layer Perceptron (MLP) model trained on historical weather data. The model takes various weather parameters as input and outputs the probability of an extreme weather event occurring.
+The core of this project is a Multi-layer Perceptron (MLP) model trained on historical weather data. The model inputs various weather parameters and outputs the probability of an extreme weather event.
 
 Key metrics:
-- Accuracy: X%
-- F1 Score: X
-- ROC-AUC: X
+-Accuracy
+-Precision
+-Recall
+-F1-score
+-ROC AUC
+-Confusion Matrix
 
 ## Cloud Deployment
 
